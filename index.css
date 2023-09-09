@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+html,
+body {
+  color: #fff;
+  background: #1d2a35 !important;
+  /* background: black !important; */
+}
+
+.logo {
+  display: flex;
+  height: 57px;
+  padding-left: 18.4px;
+  padding-top: 8px;
+  font-size: 25px;
+  color: khaki;
+}
+
+/* .logo h1 {
+/* margin-top: auto; */
+
+.top-navbar {
+  padding-bottom: 17px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+nav {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  /* margin: 15px; */
+  /* margin-right: 10px; */
+}
+
+nav li a {
+  color: white;
+  padding: 20px 38px;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a:hover {
+  background: rgb(21, 32, 43);
+  /* height: 3%; */
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+#content {
+  padding: 80px 0;
+  color: #ababab;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 46%;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  border: 2px;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: wheat;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  background: #ff004f;
+  padding: 14px 38px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all, ease 0.4s;
+  /* width: fit-content; */
+  /* color: wheat; */
+}
+
+.btn:hover {
+  scale: 1.1;
+  /* font-size: 15px; */
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 23px 0;
+}
+
+.about-col-2 {
+  flex-basis: 46%;
+}
+
+.table-table-striped,
+td,
+tr,
+th {
+  border: 2px solid blueviolet;
+  border-collapse: collapse;
+  padding: 5px 13px;
+  /* width: 41vw;
+  height: 41vh; */
+}
+
+.btnsm {
+  cursor: pointer;
+  display: block;
+  /* margin: 20px auto; */
+  background: #ff004f;
+  padding: 9px 21px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all, ease 0.4s;
+}
+
+.btnsm:hover {
+  scale: 1.1;
+}
+
+img {
+  cursor: pointer;
+  position: relative;
+  bottom: 7px;
+  width: 15px;
+  height: 13px;
+}
+
+#alert {
+  display: none;
+}
